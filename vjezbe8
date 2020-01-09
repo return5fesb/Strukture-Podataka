@@ -32,7 +32,7 @@ int dir(treePos p);
 int deleteTree(treePos p);
 int deleteStack(stackPos p);
 
-int main(int argv, char *argc[])
+int main(void)
 {
 	TREE root;
 	STACK head;

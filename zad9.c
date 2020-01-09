@@ -18,7 +18,7 @@ pos findMax(pos p);
 pos findElement(pos p, int x);
 pos deleteElement(pos p, int x);
 
-int main(int argc, char *argv[])
+int main(void)
 {
 	pos root = NULL;
 	char c;

@@ -66,6 +66,7 @@ int popFromStack(posStack head, posTree *returnValue)
 	*returnValue = tmp->el;
 	head->next = tmp->next;
 	free(tmp);
+	
 	return 0;
 }
 

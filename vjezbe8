@@ -195,6 +195,7 @@ int changeDir(treePos *current, stackPos head, char *name)
 	}
 	addToStack(head, *current, (*current)->name);
 	*current = p;
+	
 	return SUCC;
 }
 
